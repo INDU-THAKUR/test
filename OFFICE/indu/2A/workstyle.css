@@ -1,0 +1,126 @@
+
+      .div1 {
+           background-color: aliceblue;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin: 0%;
+           max-height: fit-content;
+
+      }
+ 
+
+ h1 {
+      text-align: center;
+
+ }
+
+ .div2 {
+      margin: 10px;
+      
+
+ }
+
+ 
+      fieldset {
+           background-image: url('./image1.jpg');
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 580px;
+       
+           
+      }
+
+ #name,
+ #email,
+ #no {
+      margin: 20px 30px 20px 20px;
+      font-style: bold;
+      font-family: 'Times New Roman', Times, serif;
+      box-sizing: border-box;
+      color: rgb(1, 1, 1);
+      font-size: 18px;
+
+
+
+ }
+
+ .name1 {
+      color: rgb(250, 247, 247);
+      font-family: Impact white;
+      font-style: bold;
+      background-color: transparent;
+      text-align: center;
+      box-sizing: border-box;
+      font-size: 18px;
+
+ }
+ 
+
+ .App,
+ .App1,
+ .App2,
+ .App3 {
+      font-style: bold;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      background-color: rgb(39, 224, 135);
+      position: static;
+      border-radius: 20px;
+      border-color: transparent;
+      margin: 20px 20px 10px 20px;
+      box-sizing: border-box;
+      padding: 5px 5px 5px 5px;
+   
+ }
+
+
+ .App1 {
+      background-color: rgb(81, 165, 238);
+ }
+
+ .App2 {
+      background-color: rgb(237, 95, 143);
+ }
+
+ .App3 {
+      background-color: aqua;
+ }
+
+ input {
+      border-radius: 7px;
+ }
+
+
+ #submit {
+     display: flex;
+      background-color: transparent;
+      border-color: 1px solid rgb(59, 231, 59);
+      text-align: center;
+      font-style: Arial rgb(63, 204, 63);
+      font-family: Arial green;
+      font-size: 18px;
+      margin-top: 20px;
+
+
+ }
+ @media  screen and (max-width: 400px)
+ {
+     h1{
+          font-size: 15px;
+     }
+
+ }
+ @media screen and (max-width: 500px) {
+     fieldset{
+          width: 200px;
+     }
+          
+     .name1{
+          font-size: 10px;
+     }
+     
+ }
+     
+ 
